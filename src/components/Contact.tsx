@@ -5,24 +5,14 @@ import Icon from "@/components/ui/icon";
 const Contact = () => {
   const contactInfo = [
     {
-      icon: "MapPin",
-      title: "Адрес",
-      details: ["г. Москва, ул. Тверская, 15", 'БЦ "Центральный", 3 этаж'],
-    },
-    {
       icon: "Phone",
       title: "Телефон",
-      details: ["+7 (495) 123-45-67", "+7 (916) 987-65-43"],
+      details: ["+7 961 501 9263"],
     },
     {
       icon: "Mail",
       title: "Email",
-      details: ["info@e-tute.ru", "support@e-tute.ru"],
-    },
-    {
-      icon: "Clock",
-      title: "Режим работы",
-      details: ["Пн-Пт: 9:00 - 21:00", "Сб-Вс: 10:00 - 18:00"],
+      details: ["e-tute@mail.ru"],
     },
   ];
 
@@ -68,38 +58,6 @@ const Contact = () => {
                   </CardContent>
                 </Card>
               ))}
-            </div>
-
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold font-montserrat mb-4 text-gray-900">
-                Социальные сети
-              </h3>
-              <div className="flex space-x-4">
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white hover:bg-blue-600 transition-colors"
-                >
-                  <Icon name="Facebook" size={20} />
-                </a>
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white hover:bg-pink-600 transition-colors"
-                >
-                  <Icon name="Instagram" size={20} />
-                </a>
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-colors"
-                >
-                  <Icon name="MessageCircle" size={20} />
-                </a>
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-blue-400 rounded-full flex items-center justify-center text-white hover:bg-blue-500 transition-colors"
-                >
-                  <Icon name="Send" size={20} />
-                </a>
-              </div>
             </div>
           </div>
 
