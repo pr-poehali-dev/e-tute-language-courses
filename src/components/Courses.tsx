@@ -24,7 +24,7 @@ const Courses = () => {
       ],
       levels: ["Beginner", "Intermediate", "Advanced"],
       duration: "6-12 месяцев",
-      price: "1,200₽/час",
+      price: "1,000₽/час",
     },
     {
       id: "chinese",
@@ -40,7 +40,7 @@ const Courses = () => {
       ],
       levels: ["HSK 1-2", "HSK 3-4", "HSK 5-6"],
       duration: "8-15 месяцев",
-      price: "от 9,000₽/мес",
+      price: "1,200₽/час",
     },
   ];
 
