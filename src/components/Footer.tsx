@@ -70,7 +70,7 @@ const Footer = () => {
                   href="#"
                   className="hover:text-etute-yellow transition-colors"
                 >
-                  Подготовка к IELTS
+                  подготовка к ОГЭ ЕГЭ
                 </a>
               </li>
               <li>
@@ -98,20 +98,16 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center space-x-2">
-                <Icon name="MapPin" size={16} />
-                <span>г. Москва, ул. Тверская, 15</span>
-              </li>
-              <li className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} />
-                <span>+7 (495) 123-45-67</span>
+                <span>+79615019262</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Icon name="Mail" size={16} />
-                <span>info@e-tute.ru</span>
+                <span>e-tute@mail.ru</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Icon name="Clock" size={16} />
-                <span>Пн-Пт: 9:00-21:00</span>
+                <span>круглосуточно</span>
               </li>
             </ul>
           </div>
