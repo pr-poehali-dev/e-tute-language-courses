@@ -18,10 +18,10 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://wa.me/79615019263"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-etute-red transition-colors"
               >
-                <Icon name="Facebook" size={18} />
+                <Icon name="MessageCircle" size={18} />
               </a>
               <a
                 href="#"
@@ -36,10 +36,10 @@ const Footer = () => {
                 <Icon name="MessageCircle" size={18} />
               </a>
               <a
-                href="#"
+                href="https://t.me/79615019263"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-etute-red transition-colors"
               >
-                <Icon name="Youtube" size={18} />
+                <Icon name="Send" size={18} />
               </a>
             </div>
           </div>
@@ -99,7 +99,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} />
-                <span>+79615019262</span>
+                <span>+79615019263</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Icon name="Mail" size={16} />
